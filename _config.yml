@@ -1,0 +1,30 @@
+title: Yonghyun Kwon
+tagline: Assistant Professor in Statistics
+description: Personal website of Yonghyun Kwon
+url: "https://yonghyun-k.github.io"
+baseurl: ""
+lang: en
+
+markdown: kramdown
+permalink: pretty
+
+# Optional: keep GitHub Pages builds fast/simple
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+author:
+  name: Yonghyun Kwon
+  role: Assistant Professor in Statistics
+  affiliation: Korea Military Academy
+  photo: /photo.jpg
+  email_obfuscated: yhkwonATkmaDOTacDOTkr
+  github: "https://github.com/yonghyun-K/"
+  linkedin: "https://www.linkedin.com/in/yonghyun-kwon/"
+
+# You can add a CV PDF later and set this path:
+# cv: "/assets/cv.pdf"

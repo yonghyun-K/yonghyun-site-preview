@@ -1,0 +1,9 @@
+- src: /assets/gallery/sample-1.jpg
+  alt: Sample gallery image 1
+  caption: "Add your own photos (replace this sample)."
+- src: /assets/gallery/sample-2.jpg
+  alt: Sample gallery image 2
+  caption: "Tip: put images in /assets/gallery and list them in _data/gallery.yml."
+- src: /assets/gallery/sample-3.jpg
+  alt: Sample gallery image 3
+  caption: "You can add captions, dates, or locations here."
