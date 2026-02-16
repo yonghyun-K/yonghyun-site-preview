@@ -2,7 +2,7 @@ title: Yonghyun Kwon
 tagline: Assistant Professor in Statistics
 description: Personal website of Yonghyun Kwon
 url: "https://yonghyun-k.github.io"
-baseurl: ""
+baseurl: "/yonghyun-site-preview"
 lang: en
 
 markdown: kramdown
