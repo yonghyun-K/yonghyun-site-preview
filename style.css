@@ -114,6 +114,18 @@ img { max-width: 100%; height: auto; }
 .section p { margin-bottom: 12px; }
 
 /* ===== PUBLICATIONS ===== */
+.pub-toggle { display: flex; gap: 0; margin-bottom: 8px; }
+.pub-toggle-btn {
+  display: inline-block; padding: 8px 20px; font-size: 15px; font-weight: 600;
+  border: 2px solid var(--accent); color: var(--accent); border-radius: 6px;
+  transition: all 0.2s; cursor: pointer;
+}
+.pub-toggle-btn:first-child { border-radius: 6px 0 0 6px; }
+.pub-toggle-btn:last-child { border-radius: 0 6px 6px 0; border-left: none; }
+.pub-toggle-btn:hover { background: rgba(52,152,219,0.08); text-decoration: none; }
+.pub-toggle-btn.active { background: var(--accent); color: #fff; }
+.pub-toggle-btn.active:hover { text-decoration: none; }
+.pub-status { font-size: 13px; color: var(--text-light); font-style: italic; }
 .pub-list { list-style: none; }
 .pub-item { padding: 14px 0; border-bottom: 1px solid var(--bg-light); line-height: 1.6; }
 .pub-item:last-child { border-bottom: none; }
